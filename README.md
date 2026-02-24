@@ -7,10 +7,11 @@ This repository contains data and analysis code for a quasi-experimental study o
 - `FINAL PRE  DATA 80.xlsx` – Original Excel workbook with:
   - Sheet 1: Baseline data (nomophobia, insomnia, social intelligence, neuroticism, tachycardia, group).
   - Sheet 2: Pre–post scores for all outcomes.
+- `01_import_clean.R` – R script to import the Excel file, do basic cleaning, and run initial checks.
 - `data/` – Placeholder folder for derived datasets and outputs.
-- `scripts/` – (to be populated) R scripts for data import, analysis, and figures.
 - `README.md` – This description.
 - `LICENSE` – MIT license for the code.
+
 
 ## Software
 
@@ -21,12 +22,12 @@ Analyses were conducted in:
 
 ## Planned scripts
 
-The following R scripts will be added under `scripts/`:
+Additional R scripts may be added later, for example:
 
-1. `01_import_clean.R` – Import Excel file, clean variable names, create group factor, basic summaries.
-2. `02_baseline_analyses.R` – Descriptive statistics, correlations, baseline ANOVAs and effect sizes.
-3. `03_change_analyses.R` – Pre–post change scores, regression/ANCOVA models.
-4. `04_figures.R` – Code to generate Figure 1 (nomophobia) and Figure 2 (insomnia).
+1. `02_baseline_analyses.R` – Descriptive statistics, correlations, baseline ANOVAs and effect sizes.
+2. `03_change_analyses.R` – Pre–post change scores, regression/ANCOVA models.
+3. `04_figures.R` – Code to generate figures for nomophobia, insomnia, and other outcomes.
+
 
 ## How to use
 
