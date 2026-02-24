@@ -11,8 +11,10 @@ This repository contains data and analysis code for a quasi-experimental study o
 - `data/` – Placeholder folder for derived datasets and outputs.
 - `README.md` – This description.
 - `LICENSE` – MIT license for the code.
-
-
+- `02_baseline_analyses.R` – Baseline ANOVAs, effect sizes, and assumption checks.
+- `03_change_analyses.R` – Pre–post change-score models for nomophobia and insomnia.
+- `04_figures.R` – Code to generate NMP-Q and insomnia figures.
+  
 ## Software
 
 Analyses were conducted in:
